@@ -2,18 +2,15 @@
   "name": "RateCalculator-Lf",
   "version": "3.2.7",
   "title": "Rate Calculator",
-  "description": "Calculate maximum production and consumption rates for the selected machines.",
-  "author": "raiguard",
-  "contact": "https://github.com/raiguard/RateCalculator",
-  "homepage": "https://github.com/raiguard/RateCalculator",
+  "description": "Fork of Rate Calculator made by RAIGUARD.",
+  "author": "Lihops",
+  "contact": "https://github.com/Lihopps/RateCalculator-Lf",
+  "homepage": "https://github.com/Lihopps/RateCalculator-Lf",
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1.101", "flib >= 0.12.9"],
   "package": {
     "git_publish_branch": "master",
     "ignore": ["crowdin.yml", "imgui.ini", "screenshots/*"],
-    "scripts": {
-      "prepublish": "factorio-crowdin-sync"
-    },
     "sync_portal_details": true
   }
 }
