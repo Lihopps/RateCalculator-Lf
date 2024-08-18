@@ -10,3 +10,5 @@ handler.add_libraries({
   require("scripts.gui"),
   require("scripts.shortcut"),
 })
+
+require("scripts.remote")
